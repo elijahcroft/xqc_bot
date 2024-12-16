@@ -1,3 +1,5 @@
 # Ignore environment files
 .env
 keys.env
+.txt
+user_messages.txt
