@@ -21,10 +21,24 @@ Follow these steps to download and set up the XQC Bot:
 - Python 3.8 or higher
 - `pip` package manager
 - OpenAI API key
-
+  
+### Run in server
+1. **Navigate here***:
+   https://discord.com/oauth2/authorize?client_id=1189689207225065522
+2. **Give permissions**
+     Accept all and let it run
 ### Steps
 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/elijahcroft/xqc-bot.git
    cd xqc-bot
+2 **pip install -r requirements.txt**
+
+3. **Set up enviorment**:
+   Create a .env file in the root directory.
+   Add your OpenAI API key:
+   makefile
+   Copy code
+   OPENAI_API_KEY=your-api-key
+
