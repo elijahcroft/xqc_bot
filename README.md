@@ -1,4 +1,4 @@
-#XQC Bot
+# XQC Bot
 
 An AI-powered bot designed to emulate the personality and speech patterns of the popular streamer XQC. This bot can interact with users, respond like XQC, and bring entertainment to your chat!
 
