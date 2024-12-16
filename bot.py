@@ -1,13 +1,14 @@
 import discord
 import responses
 import openai
+
 import os 
 from dotenv import load_dotenv
 openai.api_key = os.getenv('OPENAI_API_KEY')
 token = os.getenv('DISCORD_BOT_TOKEN')
 
 # Set your OpenAI API key
-openai.api_key = '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'
+
 
 
 async def send_spam(message,user_message, is_private):
